@@ -6,8 +6,10 @@ import gsap from 'gsap';
 import { Canvas } from '@react-three/fiber';
 import { Planet } from '../components/Planet';
 import { Environment, Lightformer, Float } from '@react-three/drei';
+import { useMediaQuery } from 'react-responsive';
 
 const Hero = () => {
+    const isMobile = useMediaQuery({maxWidth: 853 })
   const contextRef = useRef(null);
   const headerRef = useRef(null);
   // Add Breaklines at ""
@@ -43,7 +45,7 @@ const Hero = () => {
                     <div className='px-10'>
                         <h1 className='flex flex-col flex-wrap gap-12
                         text-black uppercase banner-text-responsive 
-                        sm:gap-16 md:block translate-y-0'>
+                        sm:gap-16 md:block -translate-y-2'>
                             Jorwin
                         </h1>
                     </div>
@@ -70,7 +72,7 @@ const Hero = () => {
             >
                 <ambientLight intensity={0.5} />
                 <Float speed={0.5}>
-                <Planet />
+                <Planet scale={isMobile ? 0.7 : 1}/>
                 </Float>
                 <Environment resolution={256}
                 >
