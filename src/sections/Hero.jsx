@@ -1,12 +1,29 @@
 import React from 'react'
 import { useRef } from 'react';
 import { AnimatedTextLines } from '../components/AnimatedTextLines';
+import { useGSAP } from '@gsap/react';
+import gsap from 'gsap';
 
 const Hero = () => {
   const contextRef = useRef(null);
   const headerRef = useRef(null);
   // Add Breaklines at ""
   const aboutText = 'I help growing brands and startups gain an\nunfair advantage through premium\nresults driven webs/apps';
+  
+  useGSAP(() => {
+    const tl = gsap.timeline();
+    tl.from(contextRef.current, {
+        y: "50vh",
+        duration: 1,
+        ease: "circ.out",
+    });
+    tl.from(headerRef.current, {
+        opacity: 0,
+        y: "200",
+        duration: 1,
+        ease: "circ.out",
+    }, "<+0.2");
+  }, []);
   return (
     <section 
       id='home' 
