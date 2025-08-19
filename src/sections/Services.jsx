@@ -11,6 +11,7 @@ const Services = () => {
             title={"Service"}
             text={text}
             textColor={"text-white"}
+            withScrollTrigger={true}
         />
     </section>
   )
