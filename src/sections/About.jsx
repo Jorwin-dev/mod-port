@@ -5,8 +5,8 @@ import AnimatedHeaderSection from "../components/AnimatedHeaderSection";
 import { AnimatedTextLines } from "../components/AnimatedTextLines";
 
 const About = () => {
-    const text = "Passionate about clean architecture\nI build scalable, high-performance solutions\nfrom prototypr to production";
-    const aboutText = "Obsesses with building fast, intuitive apps-from pixel-perfect React UIs to bulletproof serverless backends.\nEvery line of code is a promise: quality that users feel.\nWhen I'm not shipping:\nHobbyOne\nHobbyTwo\nHobbyThree\nHobbyFour";
+    const text = "Passionate about clean architecture\nI build scalable, high-performance solutions\nfrom prototype to production";
+    const aboutText = "Obsessed with building fast, intuitive apps-from pixel-perfect React UIs to bulletproof serverless backends.\nEvery line of code is a promise: quality that users feel.\nWhen I'm not shipping:\nHobbyOne\nHobbyTwo\nHobbyThree\nHobbyFour";
     const imgRef = useRef(null);
     useGSAP(() => {
         gsap.to("#about", {
