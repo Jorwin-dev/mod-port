@@ -7,13 +7,19 @@ import AnimatedHeaderSection from '../components/AnimatedHeaderSection';
 
 const Hero = () => {
     const isMobile = useMediaQuery({maxWidth: 853 })
-
+    // Add Breaklines at ""
+    const text = 'I help growing brands and startups gain an\nunfair advantage through premium\nresults driven webs/apps';
   return (
     <section 
       id='home' 
       className='flex flex-col justify-end 
       min-h-screen'>
-        <AnimatedHeaderSection />
+        <AnimatedHeaderSection 
+            subTitle={"404 No Bugs Found"}
+            title={"Jorwin"}
+            text={text}
+            textColor={"text-black"}
+        />
         <figure 
             className='absolute inset-0 -z-50'
             style={{ width: '100vw', height: '100vh' }}
