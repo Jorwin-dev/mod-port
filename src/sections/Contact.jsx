@@ -5,7 +5,7 @@ import Marquee from "../components/Marquee";
 import { socials } from "../constants";
 
 const Contact = () => {
-    const text = "Got a question, how or project Idea?\nI'd love to hear from you and discuss further!"
+    const text = "Got a question, or a project Idea?\nI'd love to hear from you and discuss further!"
     const items = [
         "just imagin, I code",
         "just imagin, I code",
@@ -30,7 +30,7 @@ const Contact = () => {
     <section id="contact" className="flex flex-col justify-between min-h-screen bg-black">
         <div>
             <AnimatedHeaderSection 
-                subTitle={"You Dream It, I Code it"}
+                subTitle={"You Think It, I Code it"}
                 title={"Contact"}
                 text={text}
                 textColor={"text-white"}

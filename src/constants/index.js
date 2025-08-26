@@ -5,7 +5,7 @@ export const servicesData = [
     {
         title: "FullStack Development",
         description:
-            "Your business deserves a fast, secure, and future-proof digital foundation. I develop custom web apps with clean architecture, optimized databases, and seamless integrations—ensuring reliability at every layer.",
+            "Your business deserves a fast, secure, and future-proof digital foundation. I develop custom web apps with clean architecture, optimized databases, and seamless integrations, ensuring reliability at every layer.",
         items: [
             {
                 title: "Backend Engineering",
@@ -24,7 +24,7 @@ export const servicesData = [
     {
         title: "DevOps & Cloud Solutions",
         description:
-            "Deploying software shouldn't be a gamble. I automate infrastructure, enforce security, and leverage cloud platforms (AWS/Azure) to keep your app running smoothly—24/7, at any scale.",
+            "Deploying software shouldn't be a gamble. I automate infrastructure, enforce security, and leverage cloud platforms (AWS/Azure) to keep your app running smoothly, 24/7, at any scale.",
         items: [
             {
                 title: "CI/CD Pipelines",
@@ -62,7 +62,7 @@ export const servicesData = [
     {
         title: "Web & Mobile Apps",
         description:
-            "A clunky interface can sink even the best ideas. I craft responsive, pixel perfect web and mobile apps (React Native/Flutter) that users love—bridging design and functionality seamlessly.",
+            "A clunky interface can sink even the best ideas. I craft responsive, pixel perfect web and mobile apps (React Native/Flutter) that users love; bridging design and functionality seamlessly.",
         items: [
             {
                 title: "Cross-Platform Apps",
@@ -84,18 +84,19 @@ export const servicesData = [
 export const projects = [
     {
         id: 1,
-    name: "Mobile Accessories E-commerce",
+    name: "O&R Landscaping & Construction",
     description:
-      "An online store specializing in phone accessories including cases, chargers, cables, and power banks with MagSafe compatibility.",
-    href: "",
-    image: "/assets/projects/mobile-accessories-store.jpg",
+      "A full-stack MERN website built for a local landscaping business in Waltham, MA. Features dynamic service listing, a media gallery, and a mobile-optimized design. Improved client engagement by 40% through UX upgrades and SEO optimization.",
+    href: "https://orlandscapingconstruction.com/",
+    image: "/assets/projects/or-landscaping-construction.png",
     bgImage: "/assets/backgrounds/blanket.jpg",
     frameworks: [
       { id: 1, name: "React" },
-      { id: 2, name: "Next.js" },
-      { id: 3, name: "Node.js" },
+      { id: 2, name: "Node.js" },
+      { id: 3, name: "Express" },
       { id: 4, name: "MongoDB" },
       { id: 5, name: "Tailwind CSS" },
+      { id: 6, name: "SEO Optimization" },
     ],
   },
   {

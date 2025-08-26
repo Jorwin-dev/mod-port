@@ -8,7 +8,7 @@ import AnimatedHeaderSection from '../components/AnimatedHeaderSection';
 const Hero = () => {
     const isMobile = useMediaQuery({maxWidth: 853 })
     // Add Breaklines at ""
-    const text = 'I help growing brands and startups gain an\nunfair advantage through premium\nresults driven webs/apps';
+    const text = 'I help growing brands and startups stand out\nthrough premium, results driven\nwebsites and apps';
   return (
     <section 
       id='home' 
